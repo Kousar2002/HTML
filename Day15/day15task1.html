@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="get">
+        <fieldset>
+            <legend>Registration Form</legend>
+            <lable for="name">Enter FullName:</lable>
+            <input type="text" id="name"/>
+            <br/>
+            <br/>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail"/>
+            <br/>
+            <br/>
+            <label for="Password">Password:</label>
+            <input type="password" id="Password"/>
+            <br/>
+            <br/>
+            <lable for="Pass">Confirm Password:</lable>
+            <input type="password" id="Pass"/>
+            <br/>
+            <br/>
+            <label for="phno">Phone No:</label>
+            <input type="text" id="phno"/>
+            <br/>
+            <br/>
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" id="dob"/>
+            <br/>
+            <br/>
+            <label>Gender:</label>
+            <br/>
+            <input type="radio" id="male" name="choose"/>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="choose"/>
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="choose"/>
+            <label for="other">Other</label>
+            <br/>
+            <label for="number">Years Of Experience:</label>
+            <input type="number" id="number" name="Yearsofexp"/>
+            <label>Programming Languages</label>
+            <br/>
+            <ol>
+                <li>
+                    <input type="checkbox" id="java"/>
+                    <label for="java">Java</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="python"/>
+                    <label for="python">python</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="clang"/>
+                    <label for="clang">C language</label>
+                </li>
+            </ol>
+            <label for="photo">Upload Your Image:</label>
+            <input type="file" id="photo" name="uploadyourimage"/>
+            <label for="File">Upload Your Resume:</label>
+            <input type="file" id="File" name="uploadyourresume"/>
+            <br/>
+            <label for="range">Graduation Percentage:</label>
+            <input type="range" id="range" name="range"/>
+            <br/>
+            <button>submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
